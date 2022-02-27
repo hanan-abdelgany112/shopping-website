@@ -1,0 +1,99 @@
+.space{
+  padding-bottom: 30px;
+}
+
+
+.drop{
+  padding-top:-40px!important ;
+}
+
+.nav{
+    background-color: rgb(20, 137, 247);
+   width:100%;
+   
+}
+
+
+
+.center{
+    display: flex;
+    align-items: center;
+}
+
+.main .border{
+     
+    width: 400px;
+    height: 40px;
+    border-radius: 50px;
+    padding: 0 10px;
+  }
+  
+  .sign {
+    text-align: center;
+    height: 40px;
+  }
+  .sign a {
+    display: inline-block;
+    position: relative;
+    color: black;
+    overflow: hidden;
+    font-size: 20px;
+     font-weight: bold;
+    text-align: center;
+    margin-top: auto;
+    padding-right: 15px;
+  }
+  
+  .sign a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    bottom: 0;
+    left: -100%;
+  
+  }
+  .sign a:hover {
+   
+    background-color: #afb7fc;
+  }
+  .sign a:hover::before {
+    left: 0;
+  }
+
+
+
+  
+ .main-nav {
+    display: flex;
+    list-style: none;
+  }
+  
+ .main-nav > li > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+    position: relative;
+    color: rgb(255, 255, 255);
+    padding: 0 30px;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 20px;
+
+  }
+  
+.main-nav > li > a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    bottom: 0;
+    left: -100%;
+  }
+ .main-nav > li > a:hover {
+    background-color: #bbc1f8;
+  }
+ .main-nav > li > a:hover::before {
+    left: 0;
+  }

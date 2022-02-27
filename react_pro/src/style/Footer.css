@@ -1,0 +1,48 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.body{
+     background-color: #192734;
+     height: 600px;
+     
+
+}
+.container1{
+    height: 150px;
+}
+.row{
+    padding: 50px;
+}
+.container2{
+    margin:250px;
+}
+
+.content-links .fontawsome{
+    color: white;
+    font-size: 40px;
+   margin-right: 30px;
+}
+input{
+    height: 50px;
+    padding: 10;
+}
+input[type='submit']{
+    margin-left: 1px;
+    margin-top: -6px;
+
+}
+input[type='email']{
+background-color: unset;
+color:rgb(184, 181, 170) ;
+border: 0.5px solid rgb(184, 181, 170);
+padding-left: 100px;
+}
+.last{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: -230px;
+}
